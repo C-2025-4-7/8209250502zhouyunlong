@@ -1,37 +1,32 @@
 #include<iostream>
 using namespace std;
-
 int main()
 {
 	double a,b;
 	char  x;
-	
-	cout << "ÇëÊäÈëÊý×Öa,ÔËËã·û£¬Êý×Öb" << endl;
+	cout << "è¯·è¾“å…¥æ•°å­—a,è¿ç®—ç¬¦ï¼Œæ•°å­—b" << endl;
     cin >> a >>x>> b;
 		switch (x)
 		{
-		
 		 case'+':
 			 cout << a << "+" << b << "=" << a + b << endl;
 			 break;
 		  case'-':
 			  cout << a << "-" << b << "=" << a - b << endl;
 			  break;
-		  case'*':
-			  cout << a << "*" << b << "=" << a * b << endl;
+		  case'*':<< b << "=" << a * b << endl;
 			  break;
 		  case'/':
 			if (b == 0)
 			{
-				cout << "ÉÌ²»´æÔÚ" << endl;
+				cout << "å•†ä¸å­˜åœ¨" << endl;
 				break;
 			}
 			else 
 			{
 				cout << a << "/" << b << "=" << a / b << endl;
 				break;
-
 			}
 	    }	
-		return 0;
+	return 0;
 }
